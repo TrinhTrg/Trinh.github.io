@@ -1,21 +1,24 @@
 {
-  "name": "trinh.github.io",
+  "name": "trinhtrg.github.io",
   "type": "module",
   "version": "1.0.0",
-  "description": "``````\r #tao file .gitignore",
+  "description": "make a landing page",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "author": "",
+  "author": "", 
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.11"
   }
 }
+
